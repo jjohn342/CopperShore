@@ -32,3 +32,40 @@
     color: white;
     padding: 1rem;
   }
+
+button {
+  background-color: #007BFF; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 10px 5px; 
+}
+
+/* Hover */
+button:hover {
+  background-color: #0056b3; 
+  transform: scale(1.05); 
+}
+
+/* Active */
+button:active {
+  background-color: #004494; 
+  transform: scale(0.95); 
+}
+
+/* Outline */
+button:focus {
+  outline: 2px solid #0056b3; 
+  outline-offset: 2px;
+}
+
+/* Disabled */
+button:disabled {
+  background-color: #d6d6d6; 
+  color: #888; 
+  cursor: not-allowed; 
+}
