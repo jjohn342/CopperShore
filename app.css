@@ -34,38 +34,54 @@
   }
 
 button {
-  background-color: #007BFF; 
-  color: #fff; 
+  background-color: #007BFF;
+  color: #fff;
   border: none;
   border-radius: 5px;
   padding: 10px 15px;
   font-size: 1rem;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  margin: 10px 5px; 
+  margin: 5px;
+  transition: all 0.3s ease;
 }
 
-/* Hover */
 button:hover {
-  background-color: #0056b3; 
-  transform: scale(1.05); 
+  background-color: #0056b3;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Active */
 button:active {
-  background-color: #004494; 
-  transform: scale(0.95); 
+  transform: scale(0.95);
 }
 
-/* Outline */
-button:focus {
-  outline: 2px solid #0056b3; 
-  outline-offset: 2px;
+/* Fade-In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-/* Disabled */
-button:disabled {
-  background-color: #d6d6d6; 
-  color: #888; 
-  cursor: not-allowed; 
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Post Section Styling */
+section {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+section:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
