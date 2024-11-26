@@ -1,0 +1,79 @@
+/* Account Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d0d0d; /* Dark background */
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .account-container {
+    text-align: center;
+    padding: 50px;
+    max-width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  .account-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #ff4500, 0 0 20px #ff6347;
+  }
+  
+  .account-description {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    color: #cccccc;
+  }
+  
+  .account-actions,
+  .account-details {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  .account-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #ff4500;
+    text-shadow: 0 0 10px #ff4500;
+  }
+  
+  .sign-in-button {
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .sign-in-button:hover {
+    background-color: #ff6347;
+    box-shadow: 0 0 15px #ff4500;
+  }
+  
+  .account-info {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .account-info p {
+    font-size: 1.2rem;
+  }
+  
+  .placeholder {
+    color: #aaaaaa;
+    font-style: italic;
+  }
+  
